@@ -6,5 +6,6 @@
   "background": {
     "scripts": ["lookup.js"]
   },
+  "icons": {"256": "icon.png"},
   "manifest_version": 2
 }
