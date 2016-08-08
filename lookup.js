@@ -22,6 +22,15 @@ var linkedin = chrome.contextMenus.create({
   },
 });
 
+// English is not my native language! :(
+var meaning = chrome.contextMenus.create({
+  "title": "Meaning of '%s'",
+  "contexts": ['selection'],
+  "onclick": function(info, tab) {
+    chrome.tabs.create({url: googleUrl(info.selectionText + ' meaning')});
+  },
+});
+
 function googleUrl(query) {
 	return 'https://google.com/#q=' + encodeURIComponent(query);
 }
