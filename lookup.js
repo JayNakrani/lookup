@@ -1,5 +1,5 @@
 var items = [
-  'Chrunchbase',
+  'Crunchbase',
   'AngelList',
   'LinkedIn',
   'Bloomberg',

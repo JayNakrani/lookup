@@ -1,7 +1,7 @@
 {
   "name": "Lookup",
   "description": "Adds often used search terms to right click menu. Like 'XYZ chrunchbase' Or 'ABC Angel List'",
-  "version": "0.2",
+  "version": "0.3",
   "permissions": ["contextMenus"],
   "background": {
     "scripts": ["lookup.js"]
