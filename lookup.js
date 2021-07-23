@@ -1,4 +1,5 @@
 var items = [
+  'SharesPost',
   'Crunchbase',
   'AngelList',
   'LinkedIn',
