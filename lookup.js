@@ -19,5 +19,5 @@ for(i = 0; i < items.length; i++) {
 }
 
 function googleUrl(query) {
-  return 'https://google.com/#q=' + encodeURIComponent(query);
+  return 'https://www.google.com/search?q=' + encodeURIComponent(query);
 }

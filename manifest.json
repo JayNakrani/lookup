@@ -6,6 +6,19 @@
   "background": {
     "scripts": ["lookup.js"]
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://angel.co/company/*",
+        "https://www.crunchbase.com/organization/*",
+        "https://www.linkedin.com/company/*"
+      ],
+      "js": [
+        "hotkeys.min.js",
+        "content_script.js"
+      ]
+    }
+  ],
   "icons": {"256": "icon.png"},
   "manifest_version": 2
 }
