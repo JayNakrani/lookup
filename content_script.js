@@ -2,6 +2,7 @@ const SITES = [
   'angel.co',
   'crunchbase.com',
   'linkedin.com',
+  'pitchbook.com',
   'sharespost.com',
 ]
 
