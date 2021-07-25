@@ -4,6 +4,7 @@ const SITES = [
   'linkedin.com',
   'pitchbook.com',
   'sharespost.com',
+  'ycombinator.com',
 ]
 
 hotkeys('ctrl+shift+*', function (event, handler) {
